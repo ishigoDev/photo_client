@@ -1,0 +1,5 @@
+export const categroy_frontend = {
+    CATEGORY_LOADING:"CATEGORY_LOADING",
+    CATEGORY_ERROR:"CATEGORY_ERROR",
+    CATEGORY_SUCCESS:"CATEGORY_SUCCESS",    
+}
