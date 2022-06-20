@@ -42,7 +42,7 @@ function Gallery({ classes, ...props }) {
     <>
       <Grid container component="main" className={classes.galleryfrontend}>
         <Grid item xs={12} sm={12} md={12} lg={12} xl={12} className={classes.banner_section} >
-          <Typography variant="h3">Gallery</Typography>
+          <Typography variant="h3" style={{letterSpacing:'6px',fontWeight:'600',color:'#BA3737'}}>GALLERY</Typography>
         </Grid>
         <Grid item xs={12} sm={12} md={12} lg={12} xl={12} className={classes.gallery_section}>
           {props.gallery_loading == true && props.gallery_success == false ? (<Grid item xs={12} sm={12} md={12} lg={12} xl={12} className={classes.photo_category}>

@@ -11,6 +11,34 @@ const about_style = (theme)=>({
         justifyContent: 'center',
         alignItems: 'center',
     },
+    notfound_section:{        
+        width:"100%",
+        height:'25.5rem',
+        display: 'flex',
+        justifyContent: 'center',
+        [theme.breakpoints.down(theme.breakpoints.values.md)]: {
+            height:'42.2rem',
+            alignItems:'center'            
+        },   
+        [theme.breakpoints.down(theme.breakpoints.values.sm)]: {
+            height:'17.2rem',
+            alignItems:'flex-start'
+        }   
+    },
+    not_found:{
+        fontSize:'230px',
+        color:'rgb(186, 55, 55)',
+        textShadow:'rgb(186 55 55 / 30%) 9px 9px',
+        [theme.breakpoints.down(theme.breakpoints.values.md)]: {
+            marginBottom:'120px'      
+        },
+        [theme.breakpoints.down(theme.breakpoints.values.md)]: {
+            fontSize:'160px',    
+        },
+        [theme.breakpoints.down(theme.breakpoints.values.sm)]: {
+            marginBottom:'0px'      
+        },  
+    },
     about_section:{
         padding:'25px',
         marginBottom:'35px',

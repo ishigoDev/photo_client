@@ -14,6 +14,7 @@ import AdminQuotes from './components/Quotes/AdminQuotes.js';
 import SingleQuotes from './components/Quotes/SingleQuotes.js';
 import CategoryFrontend from './components/Portfolio/CategoryFrontend.js';
 import Gallery from './components/Gallery/Gallery.js';
+import NotFound from './components/Footer/NotFound.js';
 function Main() {  
   return (
     <>      
@@ -44,6 +45,7 @@ function Main() {
           }></Route>
           <Route path='/contact' exact element={<><Header/><Contact/><Footer /></>} />        
           <Route path='/get-quotes' exact element={<><Header/><Quotes/><Footer /></>} />        
+          <Route path='*' element={<><Header/><NotFound/><Footer /></>} />        
         </Routes>              
     </>    
   );

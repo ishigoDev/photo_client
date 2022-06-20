@@ -18,7 +18,7 @@ function CategoryFrontend({classes,...props}){
     <>
         <Grid container component="main" className={classes.categoryfrontend}>
             <Grid item xs={12}  sm={12} md={12}  lg={12} xl={12} className={classes.banner_section} >   
-                <Typography variant="h3">Portfolio</Typography>
+                <Typography variant="h3" style={{letterSpacing:'6px',fontWeight:'600',color:'#BA3737'}}>PORTFOLIO</Typography>
             </Grid> 
             <Grid item xs={12} sm={12} md={12}  lg={12} xl={12} className={classes.categories_sections}>                               
                 {props.categoryFrontend.loading && props.categoryFrontend.success !== true ? (<Grid item xs={12} sm={12} md={12}  lg={12} xl={12} className={classes.photo_category}>

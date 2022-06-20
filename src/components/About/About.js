@@ -11,7 +11,7 @@ function About({classes}) {
         <>
         <Grid container component="main" className={classes.about}>
             <Grid item xs={12}  sm={12} md={12}  lg={12} xl={12} className={classes.banner_section} >   
-                <Typography variant="h3">About</Typography>
+                <Typography variant="h3" style={{letterSpacing:'6px',fontWeight:'600',color:'#BA3737'}}>ABOUT</Typography>
             </Grid> 
             <Grid item xs={12} sm={12} md={12}  lg={12} xl={12} className={classes.about_section}  >   
                 <Grid container xs={12} sm={12} md={12} xl={12}  lg={12}>
